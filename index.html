@@ -6,98 +6,567 @@
 
     <title>Geethika Mannem | MCA Student</title>
 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-    <!-- Background Glow -->
-    <div class="aurora aurora-one"></div>
-    <div class="aurora aurora-two"></div>
+    <div class="noise"></div>
 
-    <!-- Navigation -->
+    <div class="orb orb-one"></div>
+    <div class="orb orb-two"></div>
+
+    <div class="background-grid"></div>
+
+
+    <!-- NAVIGATION -->
+
     <header class="navbar">
-        <div class="logo">GM<span>.</span></div>
+
+        <a href="#home" class="logo">
+            <span>G</span>M.
+        </a>
+
+        <button class="menu-btn" aria-label="Menu">
+            <span></span>
+            <span></span>
+        </button>
 
         <nav>
-            <a href="#home">Home</a>
+            <a href="#home" class="active">Home</a>
             <a href="#about">About</a>
-            <a href="#education">Education</a>
+            <a href="#education">Journey</a>
             <a href="#skills">Skills</a>
             <a href="#project">Project</a>
             <a href="#contact">Contact</a>
         </nav>
+
     </header>
 
 
-    <!-- HERO SECTION -->
-    <main id="home">
+    <!-- HERO -->
 
-        <section class="hero">
+    <section class="hero section" id="home">
 
-            <div class="hero-content">
+        <div class="hero-content reveal">
 
-                <p class="welcome">HELLO, I'M</p>
+            <p class="eyebrow">
+                <span></span>
+                MCA STUDENT • GUNTUR
+            </p>
 
-                <h1>
-                    Geethika
-                    <span>Mannem</span>
-                </h1>
+            <h1>
+                Learning.
+                <br>
+                <em>Creating.</em>
+                <br>
+                Becoming.
+            </h1>
 
-                <div class="role">
-                    <span></span>
-                    MCA Student
-                </div>
+            <p class="hero-description">
+                Hi, I'm <strong>Geethika Mannem</strong> —
+                an MCA student exploring programming, databases
+                and web technologies through academics and projects.
+            </p>
 
-                <p class="intro">
-                    Currently pursuing my Master of Computer Applications,
-                    learning through academics, projects and practical
-                    experience.
-                </p>
+            <div class="hero-buttons">
 
-                <div class="hero-buttons">
-                    <a href="#about" class="primary-btn">
-                        Explore My Journey
-                        <span>↗</span>
-                    </a>
+                <a href="#project" class="button primary">
+                    View My Project
+                    <span>↗</span>
+                </a>
 
-                    <a href="#contact" class="secondary-btn">
-                        Let's Connect
-                    </a>
-                </div>
+                <a href="#contact" class="button secondary">
+                    Let's Connect
+                </a>
 
             </div>
 
+        </div>
 
-            <!-- Decorative Glass Element -->
-            <div class="hero-card">
+
+        <!-- CREATIVE CARD -->
+
+        <div class="hero-visual reveal">
+
+            <div class="orbit orbit-one"></div>
+            <div class="orbit orbit-two"></div>
+
+            <div class="student-card">
 
                 <div class="card-top">
+                    <span>CURRENT CHAPTER</span>
                     <span>01</span>
-                    <span>STUDENT</span>
                 </div>
 
-                <div class="circle">
+                <div class="monogram">
                     GM
                 </div>
 
-                <p>
-                    Learn.<br>
-                    Build.<br>
-                    Grow.
-                </p>
+                <h2>
+                    Master of
+                    <br>
+                    Computer
+                    <br>
+                    Applications
+                </h2>
 
-                <div class="card-line"></div>
-
-                <small>
-                    MCA • Guntur
-                </small>
+                <div class="card-bottom">
+                    <span>R.V.R. & J.C.</span>
+                    <span>2026</span>
+                </div>
 
             </div>
 
-        </section>
 
-    </main>
+            <div class="floating-tag tag-java">
+                JAVA
+            </div>
+
+            <div class="floating-tag tag-react">
+                REACT
+            </div>
+
+            <div class="floating-tag tag-sql">
+                SQL
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- ABOUT -->
+
+    <section class="section about" id="about">
+
+        <div class="section-heading reveal">
+
+            <span class="section-number">01</span>
+
+            <h2>
+                A little
+                <em>about</em> me.
+            </h2>
+
+        </div>
+
+
+        <div class="about-layout">
+
+            <div class="about-counter reveal">
+                01<span>/04</span>
+            </div>
+
+
+            <div class="about-content reveal">
+
+                <p class="about-large">
+
+                    I'm currently pursuing my
+                    <strong>Master of Computer Applications</strong>
+                    and building my understanding one project,
+                    program and concept at a time.
+
+                </p>
+
+
+                <p class="about-text">
+
+                    I enjoy learning by doing — from Java and Python
+                    to SQL and modern web technologies. This portfolio
+                    is a small record of my academic journey and the
+                    things I have learned along the way.
+
+                </p>
+
+
+                <div class="facts">
+
+                    <div>
+                        <span>FOCUS</span>
+                        <strong>Academics + Projects</strong>
+                    </div>
+
+                    <div>
+                        <span>LOCATION</span>
+                        <strong>Guntur, Andhra Pradesh</strong>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- EDUCATION -->
+
+    <section class="section education" id="education">
+
+        <div class="section-heading reveal">
+
+            <span class="section-number">02</span>
+
+            <h2>
+                My learning
+                <em>journey.</em>
+            </h2>
+
+        </div>
+
+
+        <div class="timeline">
+
+            <div class="timeline-item reveal">
+
+                <div class="timeline-year">
+                    NOW
+                </div>
+
+                <div class="timeline-content">
+
+                    <h3>
+                        Master of Computer Applications
+                    </h3>
+
+                    <p>
+                        R.V.R. & J.C. College of Engineering
+                    </p>
+
+                    <small>
+                        Guntur
+                    </small>
+
+                </div>
+
+            </div>
+
+
+            <div class="timeline-item reveal">
+
+                <div class="timeline-year">
+                    DEGREE
+                </div>
+
+                <div class="timeline-content">
+
+                    <h3>
+                        Undergraduate Studies
+                    </h3>
+
+                    <p>
+                        Maris Stella
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <div class="timeline-item reveal">
+
+                <div class="timeline-year">
+                    INTER
+                </div>
+
+                <div class="timeline-content">
+
+                    <h3>
+                        Intermediate
+                    </h3>
+
+                    <p>
+                        Maris Stella
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <div class="timeline-item reveal">
+
+                <div class="timeline-year">
+                    SSC
+                </div>
+
+                <div class="timeline-content">
+
+                    <h3>
+                        Secondary School
+                    </h3>
+
+                    <p>
+                        BVR ZPHS
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- SKILLS -->
+
+    <section class="section skills" id="skills">
+
+        <div class="section-heading reveal">
+
+            <span class="section-number">03</span>
+
+            <h2>
+                Things I've
+                <em>learned.</em>
+            </h2>
+
+        </div>
+
+
+        <div class="skill-cloud reveal">
+
+            <span class="featured">Java</span>
+
+            <span>Python</span>
+
+            <span>SQL</span>
+
+            <span>HTML</span>
+
+            <span>CSS</span>
+
+            <span>JavaScript</span>
+
+            <span class="featured">React</span>
+
+            <span>Web Technologies</span>
+
+            <span>DBMS</span>
+
+            <span>C</span>
+
+            <span>C++</span>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- PROJECT -->
+
+    <section class="section project" id="project">
+
+        <div class="section-heading reveal">
+
+            <span class="section-number">04</span>
+
+            <h2>
+                One project I'm
+                <em>proud of.</em>
+            </h2>
+
+        </div>
+
+
+        <div class="project-card reveal">
+
+
+            <!-- PROJECT VISUAL -->
+
+            <div class="project-visual">
+
+                <div class="dashboard-window">
+
+                    <div class="window-header">
+
+                        <div class="window-dots">
+                            <i></i>
+                            <i></i>
+                            <i></i>
+                        </div>
+
+                        <span>
+                            helpdesk-system
+                        </span>
+
+                    </div>
+
+
+                    <div class="dashboard">
+
+                        <aside>
+
+                            <strong>
+                                HD
+                            </strong>
+
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+
+                        </aside>
+
+
+                        <div class="dashboard-main">
+
+                            <small>
+                                DASHBOARD
+                            </small>
+
+                            <h4>
+                                Helpdesk Ticketing
+                            </h4>
+
+
+                            <div class="dashboard-stats">
+
+                                <div></div>
+                                <div></div>
+                                <div></div>
+
+                            </div>
+
+
+                            <div class="dashboard-line"></div>
+
+                            <div class="dashboard-line short"></div>
+
+                            <div class="dashboard-line"></div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+
+            <!-- PROJECT INFORMATION -->
+
+            <div class="project-information">
+
+                <p class="eyebrow">
+                    ACADEMIC PROJECT
+                </p>
+
+                <h3>
+                    Helpdesk
+                    <br>
+                    <em>Ticketing System</em>
+                </h3>
+
+                <p class="project-description">
+
+                    A web-based system for managing support
+                    tickets, assigning staff and tracking ticket
+                    status through a structured workflow.
+
+                </p>
+
+
+                <div class="technologies">
+
+                    <span>Spring Boot</span>
+                    <span>React</span>
+                    <span>MySQL</span>
+                    <span>JWT</span>
+
+                </div>
+
+
+                <a
+                    href="https://github.com/Mannem23/portfolio-page.git"
+                    target="_blank"
+                    class="github-link"
+                >
+                    View on GitHub ↗
+                </a>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- CONTACT -->
+
+    <section class="section contact" id="contact">
+
+        <div class="contact-box reveal">
+
+            <p class="eyebrow">
+                LET'S CONNECT
+            </p>
+
+            <h2>
+                Have something
+                <br>
+                to <em>say?</em>
+            </h2>
+
+
+            <a
+                class="email"
+                href="mailto:geethikamannem@gmail.com"
+            >
+                geethikamannem@gmail.com
+            </a>
+
+
+            <div class="contact-links">
+
+                <a
+                    href="https://github.com/Mannem23/portfolio-page.git"
+                    target="_blank"
+                >
+                    GitHub ↗
+                </a>
+
+                <a href="#home">
+                    Back to top ↑
+                </a>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- FOOTER -->
+
+    <footer>
+
+        <span>
+            GEETHIKA MANNEM
+        </span>
+
+        <span>
+            MCA STUDENT • 2026
+        </span>
+
+    </footer>
+
 
     <script src="script.js"></script>
 
